@@ -2,8 +2,101 @@
 <html>
 <head>
 	<title>building the green site with flexbox</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	salam
+	<div class="site_container">
+		
+			
+		<div id="title">
+			<nav id="navbar">
+				<span id="logo">LOGO</span>
+				<span id="menu">
+					<ul>
+						<li><a>Home</a></li>
+						<li><a>Product</a></li>
+						<li><a>Service</a></li>
+						<li><a>Contact</a></li>
+					</ul>
+				</span>
+			</nav>
+			<h1>Dramatically Engage</h1>
+			<p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+			<button class="default_btn">engage now</button>
+		</div>
+
+		<div id="apple">
+			<i></i>
+			<h3>Completely synergize resource taxing relationships</h3>
+			<p>Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+		</div>
+
+		<div id="mic">
+			<img src="">
+			<div>	
+				<h3>Best in Class</h3>
+				<p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+				<button>classify it</button>
+			</div>
+		</div>
+		
+		<div id="mobile">
+			<div> 
+				<h3>Best in Class</h3>
+				<p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+				<button>classify it</button>
+			</div>
+			<img src="">
+		</div>
+
+		<div id="triple">
+			<div>
+				<h1></h1>
+			</div>
+			<div>
+				<h1></h1>
+			</div>
+			<div>
+				<h1></h1>
+			</div>
+		</div>
+
+		<div id="pin">
+			<i></i>
+			<h1></h1>
+			<p></p>
+			<button></button>
+		</div>
+
+		<div id="cantact">
+			<h3></h3>
+			<i></i>
+			<p></p>
+			<i></i>
+			<p></p>
+		</div>
+
+		<footer>
+			Copyright &copy; Example.com 2015
+		</footer>
+
+
+	</div>
+
+
+
+<!-- When the user scrolls down 50px from the top of the document, resize the header's font size -->
+
+	<script>
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+  			if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    			  $("#navbar").addClass("scroll");
+  			} else {
+    			document.getElementById("navbar").style.backgroundColor = tranparent;
+    			document.getElementById("navbar").style.color = white;
+		}
+	</script>
 </body>
 </html>
